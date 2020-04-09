@@ -1,0 +1,75 @@
+:root{--cl-primario: #004080; --cl-secundario:#33cccc; --cl-terciario:#c6d9ec; --cl-white:white;}
+html{width: 100%; height: 100%; } body{width: 100%; height: 100%; margin: 0px;}
+.row{width: 100%; height: 100%; margin: 0px;}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {padding-left: 0px; padding-right: 0px;}
+.col-md-4, .col-md-10{padding-left: 0px; padding-right: 0px;}
+h1{font-family: Stalemate; font-size: 120px; margin-bottom: 0px; color: var(--cl-primario);}
+h2{font-family: Stalemate; font-size: 60px; margin-bottom: 0px; color: var(--cl-primario);}
+h3{font-family: Stalemate; font-size: 40px; margin-bottom: 0px; color: var(--cl-primario);}
+h5{font-family: Pompiere; font-size: 32px; margin-top: -30px; color: var(--cl-secundario);}
+h6{font-family: Pompiere; font-size: 32px; margin-top: ; color: var(--cl-secundario);}
+p{font-family: Pompiere; font-size: 20px;} .first-p{margin-top: -20px}
+hr{border-color: var(--cl-secundario);border-width: 2px; margin-top: -15px; margin-bottom: 0px; width: 200px; float: left;}
+/*HEAD ASIDE*/
+  .nav-head{text-align: center; padding-top: 20px; border-bottom: 3px solid var(--cl-secundario); border-width:80%;}
+/*MENU*/
+  .nav-aside{-webkit-box-shadow: 13px 4px 28px 4px rgba(179,209,209,1); -moz-box-shadow: 13px 4px 28px 4px rgba(179,209,209,1);box-shadow: 13px 4px 28px 4px rgba(179,209,209,1);}
+  .nav-link{text-align: center; color: var(--cl-primario); font-family: Pompiere; font-size:20px; text-transform: uppercase; padding: 10px 0px 10px 0px;}
+  .nav-link:hover{transform: scale(1.10); color: white; background-color:var(--cl-secundario);}
+  .nav-link:active{transform: scale(0.9); background-color:var(--cl-secundario);}
+  .favicon{width:32px; height:32px;}
+  .i-menu{font-size: 50px; width: 100%; padding-top: 20px;padding-bottom:20px; color: var(--cl-secundario);}
+  .i-menu:hover{transform: scale(1.25);}
+  .nav-pills .nav-link.active{background-color: white; color: var(--cl-secundario);} 
+  .nav-pills .nav-link {border-radius: 0px;}
+  
+/*FOOT ASIDE*/
+  footer {position: absolute; bottom: 0px;}
+  .social-media{text-align: center; padding-bottom:5px;}
+  .social-media-icon{width: 18px; height: 18px;}
+  .p-foot{font-size: 12px; text-transform: uppercase; text-align: center; text-justify:inter-word;} 
+/*INICIO*/
+  #v-pills-home{background-image: url("img/back3.png"); background-size: 40%; background-repeat: no-repeat; background-position: bottom right;}
+  .firma-presentacion{text-align: center;}
+/*SECCIONES*/	
+  .tab-pane{vertical-align: center;}
+  .seccion-page{padding-left: 20px;}
+/*ABOUT*/
+  #about-text{padding-left: 20px; padding-right: 20px;} #about-title{padding-top: 20px;}
+  p{text-align: justify; text-justify: inter-word;}
+/*GALERIA*/
+  #v-pills-profile{padding-left:20px;}  
+  .space-top{padding-top: 20px;}
+  .profile-img{width: 100%; padding: 5px;} 
+
+/*ADAPTACIONES*/
+  @media screen and (min-width: 768px){
+  	.body-foot{display: none;} .firma-presentacion{padding-top:15%;}
+  	#v-pills-tabContent, #v-pills-about, #v-pills-home{height: 100%;}
+  }
+
+  @media screen and (max-width: 767px) and (min-width: 440px){#v-pills-home{background-image: none;}}
+ 
+  @media screen and (max-width: 767px){
+    #v-pills-tabContent {height: 100%;} 
+    .nav-head, .aside-foot, .aside-foot{display: none;} .body-foot{display: block; position: static;}
+  	div.col-lg-2.col-md-3.nav-aside{height: 50px;} #v-pills-profile{padding-left: 0px;} .seccion-page{padding-left: 20px; padding-right:20px;}
+  	#about-img, .profile-img {padding-right:0px; padding-left:0px;} #about-text{padding-left: 0px; padding-right: 0px;}
+  	#v-pills-tab{text-align: center; vertical-align: middle!important; height: 50px;} 
+    .social-media{text-align: center; padding-bottom:5px;}
+  	.p-foot{font-size: 12px; text-transform: uppercase; text-align: center; text-justify:inter-word; margin-bottom: 5px;} 
+  }
+
+ @media screen and (min-width: 1441px){h1{font-size: 280px;} h2{font-size: 140px;} h3{font-size: 100px;}
+	h5{font-size: 100px;} h6{font-size: 32px;} p{font-size: 44px;} .p-foot{font-size: 32px;} .social-media-icon{width: 48px; height: 48px;}
+	.nav-link{font-size:42px;}.favicon{width:90px; height:90px;}}
+
+
+
+
+
+
+
+
+
+ 
